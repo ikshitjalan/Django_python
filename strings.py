@@ -11,3 +11,9 @@ x = string.split('e')
 print(x)
 x= "whats my name: {}".format('Ikshit')
 print(x)
+
+# Split
+
+tweet = 'Go Sports! #sport'
+result = tweet.split('#')[0]
+print(result)
